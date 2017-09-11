@@ -26,7 +26,7 @@ public class FIRMessagingPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    // @Override rn 0.47 fix
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
